@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 
@@ -17,7 +18,12 @@ h4 {
 }
 
 body {
-    background-image:url("../images/ice.jpg");
+    background-image: linear-gradient(rgba(0.5, 0.5, 0.5, 0), rgba(0.5, 0.5, 0.5, 0)), url("../images/ice.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .colorblue {
