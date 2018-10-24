@@ -9,7 +9,7 @@ html {
 }
 
 h1 {
-    background-color: aliceblue;
+    text-transform: uppercase;
     
 }
 
@@ -18,13 +18,30 @@ h4 {
 }
 
 body {
-    background-image: linear-gradient(rgba(0.5, 0.5, 0.5, 0), rgba(0.5, 0.5, 0.5, 0)), url("../images/ice.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/iceberg.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
+
+a {
+    color: #0670fa;
+    font-size: 1.2em;
+    transition: background-color .3s, color .3s;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+p {
+    color:aliceblue;
+}
+
 
 .colorblue {
     color: #0c0257; 
@@ -34,6 +51,10 @@ body {
 .bears {
     color: #0670fa;
     
+}
+
+.lightblue {
+    color:aliceblue;
 }
 
 #polarbears {
