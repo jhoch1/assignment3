@@ -8,6 +8,10 @@ html {
     font-family: sans-serif;   
 }
 
+header nav li {
+    list-style-type: none;
+}
+
 h1 {
     text-transform: uppercase;
     
@@ -27,7 +31,7 @@ body {
 }
 
 a {
-    color: #0670fa;
+    color: #a7d5fd;
     font-size: 1.2em;
     transition: background-color .3s, color .3s;
     text-decoration: none;
