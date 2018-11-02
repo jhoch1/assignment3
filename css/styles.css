@@ -7,9 +7,19 @@
 html {
     font-family: sans-serif;   
 }
-
+header nav ul{
+    display:flex;
+    align-items: center;
+}
 header nav li {
     list-style-type: none;
+    justify-content: flex-end;
+    padding-right:10px; 
+}
+
+header {
+    display: flex;
+
 }
 
 h1 {
@@ -21,6 +31,11 @@ h4 {
     background-color: aliceblue;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/iceberg.jpg");
     background-size: cover;
@@ -28,6 +43,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    justify-content: space-around; 
 }
 
 a {
@@ -65,3 +81,21 @@ p {
     border: 10px 10px #0670fa;
     box-shadow: 3px 3px #0c0257;
 }
+
+footer nav ul{
+    display:flex;
+}
+
+footer nav li {
+    list-style-type: none;
+    justify-content: flex-end;
+    padding:10px; 
+}
+
+footer {
+    display: flex;
+    align-items: center;
+     align-items: center;
+}
+
+
